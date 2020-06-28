@@ -1,0 +1,11 @@
+.scroll-down {
+	background-image: url(../img/scroll_down.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 20px;
+	text-align: center;
+	text-transform: none;
+	text-transform: uppercase;
+}

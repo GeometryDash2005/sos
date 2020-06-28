@@ -1,0 +1,187 @@
+.subscribe {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	background-color: #080A0B;
+	background-image: url(../img/img_6.png);
+	background-position: 0% 0%;
+	background-size: 15%;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+
+.subscribe__picture{
+	width: 50%;
+}
+
+.subscribe__image{
+	background-size: cover;
+}
+
+.subscribe .subtitle + .title {
+	margin-bottom: 60px;
+}
+
+.subscribe .text {
+	margin-bottom: 60px;
+}
+
+.entry{
+	display: flex;
+	justify-content: space-between;
+}
+
+.subscribe__info{
+	margin-right: 0;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.subscribe__subtitle{
+	padding-right: 140px;
+	width: 50%;
+}
+
+.entry{
+	width: 50%;
+}
+
+fieldset {
+	border:1px solid #262626;
+	background-color: #262626;
+	padding: 10px 20px;
+	width: 60%;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input {
+	background-color: #262626;
+	color: var(--color-yellow);
+	border:1px solid #000;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+@media screen and (max-width:1480px) {
+	.subscribe__picture{
+	width: 30%;
+	}
+
+	.subscribe__subtitle{
+	width: 60%;
+	padding-right: 0;
+	}
+
+	.entry{
+	width: 60%;
+}
+
+.subscribe {
+	background-size: 20%;
+}
+}
+
+@media screen and (max-width:1240px) {
+	.subscribe__picture{
+	width: 30%;
+	}
+
+	.subscribe__subtitle{
+	width: 70%;
+	}
+
+	.entry{
+	width: 70%;
+}
+
+.subscribe {
+	background-size: 22%;
+}
+}
+
+@media screen and (max-width:1120px) {
+	.subscribe__picture{
+	width: 25%;
+	}
+
+	.subscribe__subtitle{
+	width: 75%;
+	}
+
+	.entry{
+	width: 75%;
+	}
+}
+
+@media screen and (max-width:1120px) {
+	.nav.-footer{
+		display: flex;
+	}
+
+	.nav__link.-footer{
+		margin-right: 20px;
+	}
+
+	.btn.-subscribe{
+		font-size: 10px;
+		padding: 10px 20px;
+	}
+
+	.subscribe {
+	background-size: 27%;
+}
+}
+
+@media screen and (max-width:769px) {
+	.entry{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	fieldset{
+		width: 100%;
+	}
+
+	.btn.-subscribe{
+		width: 100%;
+		margin-top: 20px;
+		padding: 20px 20px;
+		font-size: 16px;
+	}
+
+	label {
+	font-size: 12px;
+	}
+
+	input {
+	width: 70%;
+	}
+
+	.subscribe__picture{
+	display: none;
+	}
+
+	.subscribe {
+	background-size: 21%;
+}
+
+.subscribe .subtitle + .title {
+	margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width:600px) {
+	.subscribe {
+	background-size: 27%;
+}
+}

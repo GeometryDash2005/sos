@@ -1,0 +1,184 @@
+.slider{
+	width: 50%;
+}
+
+.slider__screenshots{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.slider__item {
+	border-radius: 10px;
+	position: absolute;
+}
+
+.slider__item.-first {
+	z-index: 2;
+	left: 125px;
+	width: 438px;
+	height: 563px;
+}
+
+.slider__item.-second {
+	z-index: 3;  
+	left: 50px;
+	height: 600px;
+	width: 500px;
+}
+
+.slider__item.-third {
+	z-index: 1;
+	left: 140px;
+	width: 438px;
+	height: 511px;
+}
+
+.slider-next{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.slider-next__image {
+	width: 34px;
+	height: 17px;
+}
+
+@media screen and (max-width:1480px) {
+	.slider__item.-first {
+	width: 387px;
+	height: 498px;
+	left: 135px;
+}
+
+.slider__item.-second {
+	width: 461px;
+	height: 560px;
+}
+
+.slider__item.-third {
+	width: 387px;
+	height: 451px;
+	left: 145px;
+}
+}
+
+@media screen and (max-width:1240px) {
+	.slider__item.-first {
+	width: 333px;
+	height: 428px;
+}
+
+.slider__item.-second {
+	width: 403px;
+	height: 490px;
+}
+
+.slider__item.-third {
+	width: 333px;
+	height: 388px;
+}
+}
+
+@media screen and (max-width:1120px) {
+	.slider__item.-first {
+	width: 283px;
+	height: 378px;
+	left: 90px;
+}
+
+.slider__item.-second {
+	width: 353px;
+	height: 440px;
+	left: 0;
+}
+
+.slider__item.-third {
+	width: 283px;
+	height: 338px;
+	left: 110px;
+}
+}
+
+
+@media screen and (max-width:940px) {
+	.slider__item.-first {
+	width: 233px;
+	height: 328px;
+	left: 85px;
+}
+
+.slider__item.-second {
+	width: 303px;
+	height: 390px;
+	left: 0;
+}
+
+.slider__item.-third {
+	width: 233px;
+	height: 288px;
+	left: 100px;
+}
+}
+
+@media screen and (max-width:769px) {
+	.slider{
+	margin-top: 200px;
+	width: 100%;
+	padding: 0 150px;
+}
+
+.slider__screenshots{
+	justify-content: center;
+}
+
+.slider__item.-first {
+	width: 183px;
+	height: 278px;
+	left: 85px;
+}
+
+.slider__item.-second {
+	width: 253px;
+	height: 340px;
+	left: 0;
+}
+
+.slider__item.-third {
+	width: 183px;
+	height: 238px;
+	left: 100px;
+}
+}
+
+@media screen and (max-width:650px) {
+	.slider{
+	padding: 0 120px;
+}
+}
+
+@media screen and (max-width:585px) {
+	.slider{
+	padding: 0 90px;
+}
+}
+
+@media screen and (max-width:525px) {
+	.slider{
+	padding: 0 50px;
+}
+}
+
+@media screen and (max-width:450px) {
+	.slider{
+	padding: 0 20px;
+}
+}
+
+@media screen and (max-width:380px) {
+	.slider{
+	padding: 0;
+}
+}
